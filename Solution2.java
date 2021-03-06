@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-class Solutionii{
+class Solution2{
   static int avg=0,count=0;
   public static int percentage(navalVessel n){
     int ans = (n.noOfVoyagesCompleted*100)/n.noOfVoyagesPlanned;
