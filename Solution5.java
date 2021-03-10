@@ -34,7 +34,6 @@ class Solution5{
         String level = sc.nextLine();
         int points = sc.nextInt();
         player[i] = new Player(playedId,skill,level,points);
-        //player[i].printall();
       }
       sc.nextLine();
       String sk = sc.nextLine();
@@ -61,12 +60,4 @@ class Player{
     this.level = level;
     this.points = points;
   }
-
-  // public void printall(){
-  //   System.out.println(this.playedId);
-  //   System.out.println(this.skill);
-  //   System.out.println(this.level);
-  //   System.out.println(this.points);
-  // }
-
 }
