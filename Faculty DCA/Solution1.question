@@ -1,0 +1,130 @@
+Create a class Faculty with below attributes:
+
+id - int
+name - String
+salary - double
+designation - String
+age - int
+stream - String
+
+
+Write getters, setters and parameterized constructor in the above mentioned attribute sequence as required.
+
+Create class Solution with main method
+
+Implement two static methods - findFacultyWithSecondLargestSalary and findFourthLargestFacultyByAge in Solution class.
+
+findFacultyWithSecondLargestSalary
+Create a static method findFacultyWithSecondLargestSalary in the Solution class. This method will take array of Faculty objects and returns the Faculty object having the second largest Salary if found else return null if not found.
+
+findFourthLargestFacultyByAge
+Create a static method findFourthLargestFacultyByAge in the Solution class. This method will take array of Faculty objects and returns the Faculty object having the fourth largest Age if found else return null if not found.
+
+These methods should be called from the main method.
+
+
+
+Write code to perform the following tasks:
+
+1. Take necessary input variable and call findFacultyWithSecondLargestSalary. For this method - The main method should print the Faculty object with second largest of mentioned attribute as it is if the returned value is not null, or it should print ""No Faculty found with mentioned attribute.
+
+2. Take necessary input variable and call findFourthLargestFacultyByAge. For this method - The main method should print the Faculty object with fourth largest of mentioned attribute as it is if the returned value is not null, or it should print ""No Faculty found with mentioned attribute.
+
+The above mentioned static methods should be called from the main method. Also write the code for accepting the inputs and printing the outputs. Don't use any static test or formatting for printing the result. Just invoke the method and print the result
+
+Note :
+
+All String comparison needs to be case in-sensitive
+
+You can use/refer the below given sample input and output to verify your solution.
+
+Sample Input (below) description:
+The 1st input taken in the main section is the number of Faculty objects to be added to the list of Faculty.
+
+The next set of inputs are id,name,salary,designation,age,stream for each Faculty object taken one after other and is repeated for number of Faculty objects given in the first line of input.
+
+The last line of inputs will be the arguments which needs to be passed as parameter to the methods.
+
+Consider below sample input and output to test your code:
+Sample Input 1 - public
+4
+108
+Tiju
+20000
+Senior Faculty
+21
+Maths
+110
+Firoz
+15000
+Principal
+33
+hindi
+114
+ginsa
+18000
+Faculty
+37
+Science
+109
+sajeev
+25000
+Assistant Professor
+58
+computer science
+
+Sample Output 1
+id-108
+name-Tiju
+salary-20000
+designation-Senior Faculty
+age-21
+stream-Maths
+id-108
+name-Tiju
+salary-20000
+designation-Senior Faculty
+age-21
+stream-Maths
+
+
+Sample Input 2 - public
+4
+100
+jisha
+28000
+Junior Faculty
+23
+Mechanics
+114
+sajeev
+10000
+Senior Faculty
+33
+Science
+111
+manu
+16000
+Assistant Professor
+21
+Civics
+102
+Cissy
+33000
+Professor
+31
+English
+
+Sample Output 2
+id-100
+name-jisha
+salary-28000
+designation-Junior Faculty
+age-23
+stream-Mechanics
+id-111
+name-manu
+salary-16000
+designation-Assistant Professor
+age-21
+stream-Civics
